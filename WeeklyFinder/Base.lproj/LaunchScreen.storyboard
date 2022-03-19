@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekly Finder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMG-7M-UbG">
-                                <rect key="frame" x="105" y="344" width="204" height="188"/>
+                                <rect key="frame" x="122.5" y="427.5" width="169" height="51.5"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,10 +26,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wMG-7M-UbG" secondAttribute="bottom" constant="330" id="1dC-Ij-deZ"/>
-                            <constraint firstItem="wMG-7M-UbG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="6eA-Gm-agm"/>
-                            <constraint firstItem="wMG-7M-UbG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="bfe-VB-nhf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wMG-7M-UbG" secondAttribute="trailing" constant="105" id="flA-G4-PEz"/>
+                            <constraint firstItem="wMG-7M-UbG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KNA-6Y-POa"/>
+                            <constraint firstItem="wMG-7M-UbG" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ylj-C2-Wft"/>
                         </constraints>
                     </view>
                 </viewController>

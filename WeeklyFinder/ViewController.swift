@@ -26,14 +26,14 @@ class ViewController: UIViewController {
         dateComponents.year = Int(year)
         
         let dateFormatter = DateFormatter()
-        dateFormatter.locale = Locale(identifier: "ru_RU") // выводить день недели на русском
+        dateFormatter.locale = Locale(identifier: "eng_ENG") // выводить день недели на русском "ru_RU"
         dateFormatter.dateFormat = "EEEE"
         
         
         guard let date = calendar.date(from: dateComponents) else { return }
         
         let weekday = dateFormatter.string(from: date)
-        let capitalizedWeekday = weekday.capitalized // выводить день недели на русском
+        let capitalizedWeekday = weekday.capitalized // выводить день недели
         
         resultLabel.text = capitalizedWeekday 
         

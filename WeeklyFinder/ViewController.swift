@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         guard let date = calendar.date(from: dateComponents) else { return }
         
         let weekday = dateFormatter.string(from: date)
-        let capitalizedWeekday = weekday.capitalized // выводить день недели
+        let capitalizedWeekday = weekday.capitalized
         
         resultLabel.text = capitalizedWeekday 
         

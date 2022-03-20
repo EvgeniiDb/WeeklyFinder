@@ -1,0 +1,1 @@
+# WeeklyFinder portfolio project
